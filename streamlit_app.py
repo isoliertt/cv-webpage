@@ -1,6 +1,7 @@
 import streamlit as st
 from pathlib import Path
 
+
 def get_file_content_as_bytes(file_path):
     with open(file_path, "rb") as file:
         return file.read()
